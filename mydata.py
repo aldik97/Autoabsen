@@ -2,7 +2,7 @@ from cmath import nan
 from platform import architecture
 import time
 
-Nama = "Maman Resing"
+Nama = "Aldian Kahfi"
 Nim = "2122.02.0003"
 
 # Pertemuan = input("Sebutkan pertemuan Minggu ini dalam angka : ")
