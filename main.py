@@ -2,7 +2,6 @@ from selenium import webdriver
 from datetime import *
 from mydata import *
 from logger import *
-import time
 import schedule
 
 

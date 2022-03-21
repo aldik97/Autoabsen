@@ -22,7 +22,7 @@ jadwalkelas = {
     "Sunday": "Tidak ada Matkul"
 }
 
-# Jadwal pertemuan konversi ke EPOCH time
+# Jadwal pertemuan konversi ke EPOCH time. silahkan edit yang di dalam range
 
 
 def getPertemuan():
