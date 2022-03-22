@@ -95,6 +95,7 @@ if (startup == 1):
     print("Anda akan eksekusi absen untuk matkul {} pertemuan {}".format(
         mMatkul, mPertemuan))
     eksekusi(mMatkul, mPertemuan)
+    print("silahkan cek file result.log untuk melihat status file")
 
 elif (startup == 2):
     print("Matkul Hari ini : {}, Pertemuan Minggu Ke: {}".format(

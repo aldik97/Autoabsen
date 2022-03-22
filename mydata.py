@@ -3,9 +3,7 @@ from platform import architecture
 import time
 
 Nama = "Jaja Miharja"
-Nim = "2022.22.0999"
-
-# Pertemuan = input("Sebutkan pertemuan Minggu ini dalam angka : ")
+Nim = "2001.01.0001"
 
 # linkabsen
 formAbsen = 'https://docs.google.com/forms/d/e/1FAIpQLSeopV8HIRIp0BBTgAvESDsbTAcGI7n5_0ksxDXROhWU4wwRgg/viewform'
@@ -22,7 +20,7 @@ jadwalkelas = {
     "Sunday": "Tidak ada Matkul"
 }
 
-# Jadwal pertemuan konversi ke EPOCH time. silahkan edit yang di dalam range
+# Jadwal pertemuan telah dikonversi ke EPOCH time. silahkan edit yang di dalam range (bila perlu)
 
 
 def getPertemuan():
