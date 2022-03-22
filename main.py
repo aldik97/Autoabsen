@@ -77,19 +77,37 @@ def absen():
 
 
 # welcome message
-print("Halo, skrip ini akan berjalan setiap hari pukul 20:00")
-print("Matkul Hari ini : {}, Pertemuan Minggu Ke: {}".format(
-    getMatkul(), getPertemuan()))
+print("Halo, skrip ini akan berjalan setiap hari pukul 20:00. setiap aksi yang berhasil/gagal dilakukan oleh script ini akan tercatat dalam result.log")
 
-# DEBUG Mode
-schedule.every(1).minutes.do(absen)
+# startup script
+startup = int(
+    input("What you wanna do? (1. Absen sekarang 2. Jalankan Autoabsen) : "))
+if (startup == 1):
+    from listofmatkul import *
+    ii = 0
+    for x in listmatkul:
+        print("{}:{}".format(ii, x))
+        ii += 1
+    nMatkul = int(input("Masukkan nomor matkul : "))
+    mMatkul = listmatkul[nMatkul]
+    print(mMatkul)
+    mPertemuan = int(input("Masukkan nomor pertemuan ke: "))
+    print("Anda akan eksekusi absen untuk matkul {} pertemuan {}".format(
+        mMatkul, mPertemuan))
+    eksekusi(mMatkul, mPertemuan)
 
-# LIVE mode
-# schedule.every().day.at("20:00").do(absen)
+elif (startup == 2):
+    print("Matkul Hari ini : {}, Pertemuan Minggu Ke: {}".format(
+        getMatkul(), getPertemuan()))
 
-while True:
-    # Checks whether a scheduled task
-    # is pending to run or not
-    schedule.run_pending()
-    print("Status skrip aktif")
-    time.sleep(30)
+    # DEBUG Mode
+    # schedule.every(1).minutes.do(absen)
+
+    # LIVE mode
+    schedule.every().day.at("20:00").do(absen)
+    while True:
+        # Checks whether a scheduled task
+        # is pending to run or not
+        schedule.run_pending()
+        print("Status skrip aktif. Akan berjalan pada pukul 20:00 WIB")
+        time.sleep(30)

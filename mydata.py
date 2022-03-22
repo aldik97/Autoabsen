@@ -2,13 +2,13 @@ from cmath import nan
 from platform import architecture
 import time
 
-Nama = "Aldian Kahfi"
-Nim = "2122.02.0003"
+Nama = "Jaja Miharja"
+Nim = "2022.22.0999"
 
 # Pertemuan = input("Sebutkan pertemuan Minggu ini dalam angka : ")
 
 # linkabsen
-formAbsen = 'https://docs.google.com/forms/d/e/1FAIpQLScHQaUlrLmb06RrClimI_eLv1pCXY38ZmtQHC6zX1gMr2Hocg/viewform?usp=sf_link'
+formAbsen = 'https://docs.google.com/forms/d/e/1FAIpQLSeopV8HIRIp0BBTgAvESDsbTAcGI7n5_0ksxDXROhWU4wwRgg/viewform'
 
 # list matkul
 
