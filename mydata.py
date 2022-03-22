@@ -2,23 +2,24 @@ from cmath import nan
 from platform import architecture
 import time
 
-Nama = "Jaja Miharja"
-Nim = "2001.01.0001"
+import csv
 
-# linkabsen
+
+jadwalkelas = {}
+with open('jadwal.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+    for row in csv_reader:
+        if (len(row) > 2):
+            jadwalkelas[row[0]] = str(row[1]+','+row[2])
+        else:
+            jadwalkelas[row[0]] = str(row[1])
+
+    # print(jadwalkelas)
+
+    # linkabsen
 formAbsen = 'https://docs.google.com/forms/d/e/1FAIpQLSeopV8HIRIp0BBTgAvESDsbTAcGI7n5_0ksxDXROhWU4wwRgg/viewform'
 
-# list matkul
-
-jadwalkelas = {
-    "Monday": "Analisa Algoritma",
-    "Tuesday": "Data Mining,Social and Interpersonal Skill II ",
-    "Wednesday": "Manajemen dan Strategi Bisnis",
-    "Thursday": "Sistem operasi",
-    "Friday": "Computer Architecture",
-    "Saturday": "Struktur Data",
-    "Sunday": "Tidak ada Matkul"
-}
 
 # Jadwal pertemuan telah dikonversi ke EPOCH time. silahkan edit yang di dalam range (bila perlu)
 

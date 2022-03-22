@@ -52,10 +52,8 @@ def eksekusi(fMatkul, fPertemuan):
 def getMatkul():
     thisday = datetime.today().strftime('%A')
     if thisday in jadwalkelas:
-        # print('ada')
-        listmatkul = jadwalkelas[thisday].split(",")
-        for x in listmatkul:
-            return x
+        listmatkul = jadwalkelas[thisday]
+        return(listmatkul)
     else:
         return 'tidak ada kelas'
 
@@ -77,9 +75,12 @@ def absen():
 
 
 # welcome message
-print("Halo, skrip ini akan berjalan setiap hari pukul 20:00. setiap aksi yang berhasil/gagal dilakukan oleh script ini akan tercatat dalam result.log")
+print("AUTO ABSEN by Aldik. setiap aksi yang berhasil/gagal dilakukan oleh script ini akan tercatat dalam result.log")
 
 # startup script
+Nama = input("Masukkan Nama Lengkap : ")
+Nim = input("Masukkkan NIM : ")
+
 startup = int(
     input("What you wanna do? (1. Absen sekarang 2. Jalankan Autoabsen) : "))
 if (startup == 1):
