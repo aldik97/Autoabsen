@@ -1,5 +1,53 @@
-2022-03-21 09:16:12,436: Data:Maman Resing - 2122.02.0003 - Analisa Algoritma - 2, Status: Jawaban Anda telah direkam.
-2022-03-22 16:18:48,444: Data:Jaja Miharja - 2022.22.0999 - Database II - 1, Status: Jawaban Anda telah direkam.
-2022-03-22 16:20:36,018: Data:Jaja Miharja - 2022.22.0999 - Pancasila - 0, Status: Jawaban Anda telah direkam.
-2022-03-22 19:08:34,012: Data:Aldian Kahfi - 2122.02.0003 - Data Mining - 2, Status: Jawaban Anda telah direkam.
-2022-03-22 19:09:55,306: Data:Aldian Kahfi - 2122.02.0003 - Data Mining - 1, Status: Jawaban Anda telah direkam.
+2022-03-22 22:04:52,586: POST http://localhost:60218/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-03-22 22:04:52,587: Starting new HTTP connection (1): localhost:60218
+2022-03-22 22:04:53,179: http://localhost:60218 "POST /session HTTP/1.1" 200 786
+2022-03-22 22:04:53,179: Finished Request
+2022-03-22 22:04:53,179: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/url {"url": "https://docs.google.com/forms/d/e/1FAIpQLSeopV8HIRIp0BBTgAvESDsbTAcGI7n5_0ksxDXROhWU4wwRgg/viewform"}
+2022-03-22 22:05:11,918: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/url HTTP/1.1" 200 14
+2022-03-22 22:05:11,919: Finished Request
+2022-03-22 22:05:13,927: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div/div[2]/form/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input"}
+2022-03-22 22:05:13,940: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:13,940: Finished Request
+2022-03-22 22:05:13,940: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/6f5c7e33-6680-4690-9945-66e0261b4441/value {"text": "Aldian Kahfi", "value": ["A", "l", "d", "i", "a", "n", " ", "K", "a", "h", "f", "i"], "id": "6f5c7e33-6680-4690-9945-66e0261b4441"}
+2022-03-22 22:05:14,032: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/6f5c7e33-6680-4690-9945-66e0261b4441/value HTTP/1.1" 200 14
+2022-03-22 22:05:14,032: Finished Request
+2022-03-22 22:05:14,032: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input"}
+2022-03-22 22:05:14,043: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:14,044: Finished Request
+2022-03-22 22:05:14,044: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/dc7ed041-6369-4ccb-9b82-c1d0d9c9bd3b/value {"text": "2122.02.0003", "value": ["2", "1", "2", "2", ".", "0", "2", ".", "0", "0", "0", "3"], "id": "dc7ed041-6369-4ccb-9b82-c1d0d9c9bd3b"}
+2022-03-22 22:05:14,116: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/dc7ed041-6369-4ccb-9b82-c1d0d9c9bd3b/value HTTP/1.1" 200 14
+2022-03-22 22:05:14,116: Finished Request
+2022-03-22 22:05:14,116: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div/div[2]/form/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input"}
+2022-03-22 22:05:14,127: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:14,127: Finished Request
+2022-03-22 22:05:14,128: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/cc0919f7-4143-4f40-b321-6d3b69a4695c/value {"text": "Social and Professional Skills II", "value": ["S", "o", "c", "i", "a", "l", " ", "a", "n", "d", " ", "P", "r", "o", "f", "e", "s", "s", "i", "o", "n", "a", "l", " ", "S", "k", "i", "l", "l", "s", " ", "I", "I"], "id": "cc0919f7-4143-4f40-b321-6d3b69a4695c"}
+2022-03-22 22:05:14,246: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/cc0919f7-4143-4f40-b321-6d3b69a4695c/value HTTP/1.1" 200 14
+2022-03-22 22:05:14,246: Finished Request
+2022-03-22 22:05:14,247: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div/div[2]/form/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[1]/div/div[1]/input"}
+2022-03-22 22:05:14,257: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:14,258: Finished Request
+2022-03-22 22:05:14,258: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/902e2b19-ef90-46c3-a526-42f78ac40e3f/value {"text": "2", "value": ["2"], "id": "902e2b19-ef90-46c3-a526-42f78ac40e3f"}
+2022-03-22 22:05:14,310: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/902e2b19-ef90-46c3-a526-42f78ac40e3f/value HTTP/1.1" 200 14
+2022-03-22 22:05:14,310: Finished Request
+2022-03-22 22:05:14,311: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div/div[2]/form/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div/div[2]/div[1]/div/div[1]/input"}
+2022-03-22 22:05:14,321: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:14,321: Finished Request
+2022-03-22 22:05:14,321: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/d8252b7a-8b17-4f48-b05f-e4e0171422d2/value {"text": "03/22/22", "value": ["0", "3", "/", "2", "2", "/", "2", "2"], "id": "d8252b7a-8b17-4f48-b05f-e4e0171422d2"}
+2022-03-22 22:05:14,379: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/d8252b7a-8b17-4f48-b05f-e4e0171422d2/value HTTP/1.1" 200 14
+2022-03-22 22:05:14,379: Finished Request
+2022-03-22 22:05:14,379: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div/div[2]/form/div[2]/div/div[3]/div[1]/div[1]/div/span"}
+2022-03-22 22:05:14,393: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:14,393: Finished Request
+2022-03-22 22:05:14,393: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/d11a3700-ab76-4f9c-859c-c299abfd5f2d/click {"id": "d11a3700-ab76-4f9c-859c-c299abfd5f2d"}
+2022-03-22 22:05:15,072: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/d11a3700-ab76-4f9c-859c-c299abfd5f2d/click HTTP/1.1" 200 14
+2022-03-22 22:05:15,072: Finished Request
+2022-03-22 22:05:17,084: POST http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element {"using": "xpath", "value": "/html/body/div[1]/div[2]/div[1]/div/div[3]"}
+2022-03-22 22:05:17,097: http://localhost:60218 "POST /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element HTTP/1.1" 200 88
+2022-03-22 22:05:17,097: Finished Request
+2022-03-22 22:05:17,097: GET http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/09fcf625-9e3e-4bd0-8447-c8c7f069626f/text {"id": "09fcf625-9e3e-4bd0-8447-c8c7f069626f"}
+2022-03-22 22:05:17,110: http://localhost:60218 "GET /session/1b08f3060ddd7ffb3ccbd493a81cc2be/element/09fcf625-9e3e-4bd0-8447-c8c7f069626f/text HTTP/1.1" 200 39
+2022-03-22 22:05:17,111: Finished Request
+2022-03-22 22:05:17,111: Data:Aldian Kahfi - 2122.02.0003 - Social and Professional Skills II - 2, Status: Jawaban Anda telah direkam.
+2022-03-22 22:05:17,111: DELETE http://localhost:60218/session/1b08f3060ddd7ffb3ccbd493a81cc2be {}
+2022-03-22 22:05:17,146: http://localhost:60218 "DELETE /session/1b08f3060ddd7ffb3ccbd493a81cc2be HTTP/1.1" 200 14
+2022-03-22 22:05:17,146: Finished Request
