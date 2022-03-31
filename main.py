@@ -75,11 +75,17 @@ def absen():
 
 
 # welcome message
-print("AUTO ABSEN by Aldik. setiap aksi yang berhasil/gagal dilakukan oleh script ini akan tercatat dalam result.log")
+print("AUTO ABSEN bot. setiap aksi yang berhasil/gagal dilakukan oleh script ini akan tercatat dalam result.log")
 
 # startup script
-Nama = input("Masukkan Nama Lengkap : ")
-Nim = input("Masukkkan NIM : ")
+
+# Nama = input("Masukkan Nama Lengkap : ")
+# Nim = input("Masukkkan NIM : ")
+
+Nama = akun['Nama']
+Nim = akun['Nim']
+
+print(Nama, Nim)
 
 startup = int(
     input("What you wanna do? (1. Absen sekarang 2. Jalankan Autoabsen) : "))

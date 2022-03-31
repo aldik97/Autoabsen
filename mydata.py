@@ -17,6 +17,12 @@ with open('jadwal.csv') as csv_file:
 
     # print(jadwalkelas)
 
+akun = {}
+with open('akun.csv') as csv_akun:
+    csv_reader = csv.reader(csv_akun, delimiter=',')
+    for row in csv_reader:
+        akun['Nama'] = row[0]
+        akun['Nim'] = row[1]
     # linkabsen
 formAbsen = 'https://docs.google.com/forms/d/e/1FAIpQLSeopV8HIRIp0BBTgAvESDsbTAcGI7n5_0ksxDXROhWU4wwRgg/viewform'
 
